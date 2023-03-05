@@ -1,0 +1,215 @@
+:root {
+    --black-color: #222222;
+    --dark-black-color: #000000;
+    --pink-color: #F1E4E6;
+    --dark-pink-color: #F16D7F;
+    --white-color: #FFFFFF;
+    --light-grey-color: #F8F8F8;
+    --grey-color: #5D5D5D;
+}
+
+body {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--black-color);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__button {
+    background: transparent;
+    border: none;
+    margin: 0 33px 0 0;
+}
+
+.header__link {
+    margin: 0 33px 0 0;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.brand {
+    background-color: var(--pink-color);
+}
+
+.brand__container {
+    max-width: 1600px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.brand__title-container {
+    display: flex;
+    align-items: center;
+}
+
+.brand__title {
+    padding: 0 0 0 92px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+    width: 377px;
+}
+
+.brand__sub-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.brand__sub-title-dark-pink {
+    color: var(--dark-pink-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.promotions__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 65px 0 96px 0;
+}
+
+.promotions__item {
+    width: 360px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.promotions__item--woman {
+    background-image: url("../img/promotions-girl-1.jpg");
+    background-size: cover;
+}
+
+.promotions__item--man {
+    background-image: url("../img/promotions-man-1.jpg");
+    background-size: cover;
+}
+
+.promotions__item--kids {
+    background-image: url("../img/promotions-kid-1.jpg");
+    background-size: cover;
+}
+
+.promotions__item--accesories {
+    background-image: url("../img/promotions-accesories-1.jpg");
+    background-size: cover;
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+
+.promotions__title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.promotions__text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: var(--dark-pink-color);
+    text-transform: uppercase;
+}
+
+.products__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--black-color);
+    text-align: center;
+}
+
+.products__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--grey-color);
+    margin: 6px 0 48px 0;
+    text-align: center;
+}
+
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products__item {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 581px;
+    margin: 0 0 30px 0;
+}
+
+.products__item--description {
+    padding: 23px 28px 20px 16px;
+    background-color: var(--light-grey-color);
+}
+
+.products__item--title {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--dark-black-color);
+    text-transform: uppercase;
+}
+
+.products__item--sub-description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: var(--grey-color);
+    margin: 12px 0 18px 0;
+}
+
+.products__item--price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--dark-pink-color);
+}
+
+.products__item--button {
+    display: none;
+}
